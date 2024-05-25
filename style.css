@@ -109,3 +109,7 @@ footer{
     color: black;
     text-decoration: underline;
   }
+
+  .word:hover{
+    color: darkblue;
+  }

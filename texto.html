@@ -27,9 +27,9 @@
               <ul class="dropdown-menu text-small shadow">
                 <li><a class="dropdown-item" href="#">Novo projeto...</a></li>
                 <li><a class="dropdown-item" href="#">Configurações</a></li>
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="perfil.html" target="_blank">Perfil</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Deslogar</a></li>
+                <li onclick="deslog()"><a class="dropdown-item" href="#">Deslogar</a></li>
               </ul>
             </div>
           </div>
@@ -117,9 +117,9 @@
 
                             Até o presente momento
                            
-                            Foi ter conhecido Anna Letícia Alves
+                            Foi ter conhecido Anna Letícia Alves de Freitas
                            
-                            A melhor garota que já conheci.
+                            Uma pessoa de grande coração.
                         </pre>
                     </p>
                    </section>
@@ -220,7 +220,7 @@
                         
                                 Neste dia tão especial, 27 de Maio de 2024
                         
-                                Desejo a você um feliz aniversário
+                                Desejo a você um feliz aniversário de 16 anos
                         
                                 Desejo-lhe muitos anos de vida
                         
@@ -238,6 +238,11 @@
         function showWord() {
           var hiddenWord = document.getElementById("hiddenWord");
           hiddenWord.classList.toggle("hidden");
+        }
+
+        function deslog(){
+          alert("Para deslogar sua conta deste site clique em OK.");
+          alert("Não foi possível deslogar sua conta. Tente novamente mais tarde.");
         }
       </script>
 
